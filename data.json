@@ -1,0 +1,50 @@
+[
+  {
+   "id": 1,
+   "name": "Mayami",
+   "category": "HTML_CSS advanced",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/js_employees_table_DOM/master/src/images/result.png"
+  },
+  {
+   "id": 2,
+   "name": "Eco cosmetics",
+   "category": "HTML_CSS advanced",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/js_employees_table_DOM/master/src/images/result.png"
+  },
+  {
+   "id": 3,
+   "name": "Pig game",
+   "category": "JavaScript",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/js_employees_table_DOM/master/src/images/result.png"
+  },
+  {
+   "id": 4,
+   "name": "I guess",
+   "category": "JavaScript",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/js_employees_table_DOM/master/src/images/result.png"
+  },
+  {
+   "id": 5,
+   "name": "Omnifood",
+   "category": "JavaScript",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/js_employees_table_DOM/master/src/images/result.png"
+  },
+  {
+   "id": 6,
+   "name": "Bankist",
+   "category": "JavaScript",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/js_employees_table_DOM/master/src/images/result.png"
+  },
+  {
+   "id": 7,
+   "name": "Parfumer",
+   "category": "React + ts",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/js_employees_table_DOM/master/src/images/result.png"
+  },
+  {
+   "id": 8,
+   "name": "The-Weirdos-NFT-Website-Starter-Code",
+   "category": "React",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/js_employees_table_DOM/master/src/images/result.png"
+  }
+ ]
