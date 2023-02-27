@@ -25,13 +25,13 @@ export const Projects = ()  => {
 
 
   const [collections, setCollections] = React.useState([]);
-  const [categoryId, setCategoryId] = React.useState(0);
+  const [categoryId, setCategoryId] = React.useState("All");
   const [isLoading, setIsLoading] = React.useState(true);
 
   React.useEffect(()=> {
     setIsLoading(true);
 
-    const category = categoryId ? `category=${categoryId}` : '';
+    const category = categoryId !=="All" ? `category=${categoryId}` : '';
 
     fetch(`https://63cb0c51f36cbbdfc764f902.mockapi.io/colections?${category}`)
 
@@ -60,16 +60,16 @@ export const Projects = ()  => {
     </Row>
     <Row>
       <TabContainer id = "projects-tabs" defaultActiveKey = "All">
-      <Nav variant="pills" defaultActiveKey="All" className="nav-pills mb-5 justify-content-center align-items-center" id = "pills-tab">
+      <Nav variant="pills"  className="nav-pills mb-5 justify-content-center align-items-center" id = "pills-tab">
       {isLoading
 
       ? (<h1>Downloading...</h1>)
 
       :
-      (cats.map((obj, index)=> (
+      (cats.map((obj)=> (
 
-      <Nav.Item  onClick = {()=> {setCategoryId(index)}}
-      className = {categoryId === index ? 'active' : ''}
+      <Nav.Item  onClick = {()=> {setCategoryId(obj.name)}}
+      className = {categoryId === obj.name ? 'active' : ''}
       key = {obj.name}
       >
         <Nav.Link eventKey = {obj.name}>{obj.name}</Nav.Link>
@@ -85,10 +85,12 @@ export const Projects = ()  => {
 
 <Row>
     {collections
-      .filter((project) => cat.name === "All" || project.category === cat.name)
-      .map(project => <ProjectCard key = {project.id} name = {project.name} category= {project.category} imgUrl = {project.imgUrl}
-        />
 
+    .map(project => (
+
+    <ProjectCard key = {project.id} name = {project.name} category= {project.category} imgUrl = {project.imgUrl}
+        />
+    )
       )
       }
 </Row>
