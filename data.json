@@ -2,38 +2,44 @@
   {
    "id": 1,
    "name": "Miami",
-   "category": "HTML_CSS_advanced",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/miami.png"
+   "category": "HTML_CSS",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/main/src/img/miami.png",
+   "projectUrl": "https://dragotaiv.github.io/layout_miami/"
   },
   {
    "id": 2,
    "name": "Eco cosmetics",
-   "category": "HTML_CSS_advanced",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/eco_cosmetics.png"
+   "category": "HTML_CSS",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/main/src/img/eco_cosmetics.png",
+   "projectUrl": "https://dragotaiv.github.io/Eco_cosmetics/"
   },
   {
    "id": 3,
    "name": "Pig game",
    "category": "JavaScript",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/pig_game.png"
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/main/src/img/pig_game.png",
+   "projectUrl": "https://dragotaiv.github.io/Pig_game/"
   },
   {
    "id": 4,
    "name": "I guess",
    "category": "JavaScript",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/guess_my_number.png"
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/main/src/img/guess_my_number.png",
+   "projectUrl": "https://dragotaiv.github.io/Guess_my_number/"
   },
   {
    "id": 5,
    "name": "Bankist",
    "category": "JavaScript",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/bankist.png"
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/main/src/img/bankist.png",
+   "projectUrl": "https://dragotaiv.github.io/Bankist/"
   },
   {
    "id": 6,
    "name": "Parfumer",
    "category": "React",
-   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/parfumer.png"
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/main/src/img/parfum.png",
+   "projectUrl": "https://dragotaiv.github.io/React_Parfumer/"
   }
 
  ]
