@@ -1,0 +1,51 @@
+[
+  {
+   "id": 1,
+   "name": "Miami",
+   "category": "HTML_CSS_advanced",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/miami.png",
+   "projectUrl": "https://dragotaiv.github.io/layout_miami/"
+  },
+  {
+   "id": 2,
+   "name": "Museum",
+   "category": "HTML_CSS_advanced",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/museum.png",
+   "projectUrl": "https://dragotaiv.github.io/Museum-landing/"
+  },
+  {
+   "id": 3,
+   "name": "Pig game",
+   "category": "JavaScript",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/pig_game.png",
+   "projectUrl": "https://dragotaiv.github.io/Pig_game/"
+  },
+  {
+   "id": 4,
+   "name": "I guess",
+   "category": "JavaScript",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/guess_my_number.png",
+   "projectUrl": "https://dragotaiv.github.io/Guess_my_number/"
+  },
+  {
+   "id": 5,
+   "name": "2048 game",
+   "category": "JavaScript",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/2048.png",
+   "projectUrl": "https://dragotaiv.github.io/2048-game/"
+  },
+  {
+   "id": 6,
+   "name": "Parfumer",
+   "category": "React",
+   "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/parfum.png",
+   "projectUrl": "https://dragotaiv.github.io/React_Parfumer/"
+  },
+  {
+    "id": 7,
+    "name": "Todo list",
+    "category": "React",
+    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/todo_list.png",
+    "projectUrl": "https://dragotaiv.github.io/Todo-list/"
+   }
+ ]
