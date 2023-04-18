@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Tab, TabContainer, Row, Col, Nav, Button } from 'react-bootstrap';
+import { Container, Tab, TabContainer, Row, Col, Nav} from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
 import { Circles } from 'react-loader-spinner';
 
