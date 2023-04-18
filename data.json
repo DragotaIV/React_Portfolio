@@ -2,50 +2,57 @@
   {
    "id": 1,
    "name": "Miami",
-   "category": "HTML_CSS_advanced",
+   "category": "Landing",
    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/miami.png",
-   "projectUrl": "https://dragotaiv.github.io/layout_miami/"
+   "projectUrl": "https://dragotaiv.github.io/layout_miami/",
+   "gitHub": "https://github.com/DragotaIV/Miami-landing"
   },
   {
    "id": 2,
    "name": "Museum",
-   "category": "HTML_CSS_advanced",
+   "category": "Landing",
    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/museum.png",
-   "projectUrl": "https://dragotaiv.github.io/Museum-landing/"
+   "projectUrl": "https://dragotaiv.github.io/Museum-landing/",
+   "gitHub": "https://github.com/DragotaIV/Museum-landing"
   },
   {
    "id": 3,
    "name": "Pig game",
-   "category": "JavaScript",
+   "category": "JS",
    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/pig_game.png",
-   "projectUrl": "https://dragotaiv.github.io/Pig_game/"
+   "projectUrl": "https://dragotaiv.github.io/Pig_game/",
+   "gitHub": "https://github.com/DragotaIV/Pig_game"
   },
   {
    "id": 4,
    "name": "I guess",
-   "category": "JavaScript",
+   "category": "JS",
    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/guess_my_number.png",
-   "projectUrl": "https://dragotaiv.github.io/Guess_my_number/"
+   "projectUrl": "https://dragotaiv.github.io/Guess_my_number/",
+   "gitHub": "https://github.com/DragotaIV/Guess_my_number"
   },
   {
    "id": 5,
    "name": "2048 game",
-   "category": "JavaScript",
+   "category": "JS",
    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/2048.png",
-   "projectUrl": "https://dragotaiv.github.io/2048-game/"
+   "projectUrl": "https://dragotaiv.github.io/2048-game/",
+   "gitHub":"https://github.com/DragotaIV/2048-game"
   },
   {
    "id": 6,
    "name": "Parfumer",
    "category": "React",
    "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/parfumer.png",
-   "projectUrl": "https://dragotaiv.github.io/React_Parfumer/"
+   "projectUrl": "https://dragotaiv.github.io/React_Parfumer/",
+   "gitHub":"https://github.com/DragotaIV/React_Parfumer"
   },
   {
     "id": 7,
     "name": "Todo list",
     "category": "React",
     "imgUrl": "https://raw.githubusercontent.com/DragotaIV/React_Portfolio/master/src/img/todo_list.png",
-    "projectUrl": "https://dragotaiv.github.io/Todo-list/"
+    "projectUrl": "https://dragotaiv.github.io/Todo-list/",
+    "gitHub": "https://github.com/DragotaIV/Todo-list"
    }
  ]

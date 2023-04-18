@@ -1,7 +1,6 @@
 
 import {useState, useEffect} from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from "../assets/img/header-img.svg";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'font-awesome/css/font-awesome.min.css';
@@ -49,17 +48,18 @@ const tick = ()=> {
 
 
 return (
-  <section className="align-items-center">
-    <Container>
-    <Row className="align-items-center">
+  <section className="banner align-items-center">
+    <Container >
+    <Row className="align-items-center mt-100">
       <Col xs={12} md = {6} xl = {7}>
       <TrackVisibility>
       {({ isVisible })=>
-      <div className= {isVisible  ? "animate__animated animate__fadeIn" : "" }>
-        <span className="tagline">Welcome to my Portfolio</span>
+              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+        <Row >
+        <span className="tagline ">Welcome to my Portfolio</span>
         <h1>{`Hi I'm Inna `}<span className="wrap">{text}</span></h1>
         <h2>I like JavaScript and React</h2>
-        <button onClick = {()=> console.log('connect')}>Let's connectLet’s Connect <ArrowRightCircle size={25} /></button>
+        </Row>
       </div>}
       </TrackVisibility>
       </Col>
